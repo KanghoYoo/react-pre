@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const CommentText = styled.p`
+const ContentText = styled.p`
   font-size: 14px;
 `;
 
@@ -24,7 +24,7 @@ function CommentListItem(props) {
 
   return (
     <Wrapper>
-      <CommentText>{comment.content}</CommentText>
+      <ContentText>{comment.content}</ContentText>
     </Wrapper>
   );
 }
