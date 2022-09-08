@@ -23,7 +23,7 @@ const Container = styled.div`
 `;
 
 function MainPage(props) {
-  const {} = props;
+  const { data } = props;
   const navigate = useNavigate();
 
   return (
