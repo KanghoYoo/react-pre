@@ -8,7 +8,9 @@ const Wrapper = styled.div`
   width: calc(100% - 32px);
   padding: 16px;
   display: flex;
-  flex: column flex-start center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const Container = styled.div`

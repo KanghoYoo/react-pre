@@ -4,7 +4,9 @@ import PostListItem from "./PostListItem";
 
 const Wrapper = styled.div`
   display: flex;
-  flex: column flex-start center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   & > * {
     :not(:last-child) {
